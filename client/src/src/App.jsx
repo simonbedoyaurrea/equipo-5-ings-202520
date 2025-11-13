@@ -1,12 +1,11 @@
-import { Routes, Route, Navigate } from 'react-router-dom'
-import { useAuth } from './context/AuthContext'
-import NavBar from './components/NavBar'
-import Login from './pages/Login'
+import { Routes, Route, Navigate } from 'react-router-dom';
+import { useAuth } from './context/AuthContext';
+import Login from './pages/Login';
 import Home from './pages/Home';
 import Register from './pages/Register';
 import CropsPage from './pages/CropsPage';
 import Especies from './pages/Especies';
-import CropForm from './components/CropForm';
+import CropForm from './Components/CropForm';
 import CultivoDetail from './pages/CultivoDetail';
 import CropEdit from './pages/CropEdit';
 import AdminHome from './pages/AdminHome';

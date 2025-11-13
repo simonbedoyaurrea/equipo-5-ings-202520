@@ -1,6 +1,6 @@
 import React from 'react'
-import NavBar from '../components/NavBar'
-import PageBox from '../components/PageBox'
+import NavBar from '../Components/NavBar'
+import PageBox from '../Components/PageBox'
 
 export default function AdminHome() {
     const pages = [
